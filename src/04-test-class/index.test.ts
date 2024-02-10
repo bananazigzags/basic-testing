@@ -6,8 +6,6 @@ import {
 } from '.';
 import _ from 'lodash';
 
-jest.unmock('lodash');
-
 describe('BankAccount', () => {
   test('should create account with initial balance', () => {
     const account = getBankAccount(1000);
